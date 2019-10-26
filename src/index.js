@@ -9,7 +9,7 @@ const responseFacebook = (response) => {
 
 ReactDOM.render(
     <FacebookLogin
-        appId="1088597931155576"
+        appId="414897609429813"
         autoLoad={true}
         fields="name,email,picture"
         callback={responseFacebook}
