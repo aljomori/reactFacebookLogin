@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/login-tester/static/css/main.63b9a3f7.chunk.css",
-    "main.js": "/login-tester/static/js/main.e7780035.chunk.js",
-    "main.js.map": "/login-tester/static/js/main.e7780035.chunk.js.map",
-    "runtime-main.js": "/login-tester/static/js/runtime-main.aaded999.js",
-    "runtime-main.js.map": "/login-tester/static/js/runtime-main.aaded999.js.map",
-    "static/js/2.5f2eda0f.chunk.js": "/login-tester/static/js/2.5f2eda0f.chunk.js",
-    "static/js/2.5f2eda0f.chunk.js.map": "/login-tester/static/js/2.5f2eda0f.chunk.js.map",
-    "index.html": "/login-tester/index.html",
-    "precache-manifest.1b3ef5d3a1bb8872f36ce010ca3bf749.js": "/login-tester/precache-manifest.1b3ef5d3a1bb8872f36ce010ca3bf749.js",
-    "service-worker.js": "/login-tester/service-worker.js",
-    "static/css/main.63b9a3f7.chunk.css.map": "/login-tester/static/css/main.63b9a3f7.chunk.css.map",
-    "static/media/logo.svg": "/login-tester/static/media/logo.25bf045c.svg"
+    "main.css": "/reactFacebookLogin/static/css/main.63b9a3f7.chunk.css",
+    "main.js": "/reactFacebookLogin/static/js/main.e073d7c2.chunk.js",
+    "main.js.map": "/reactFacebookLogin/static/js/main.e073d7c2.chunk.js.map",
+    "runtime-main.js": "/reactFacebookLogin/static/js/runtime-main.8208ab83.js",
+    "runtime-main.js.map": "/reactFacebookLogin/static/js/runtime-main.8208ab83.js.map",
+    "static/js/2.5f2eda0f.chunk.js": "/reactFacebookLogin/static/js/2.5f2eda0f.chunk.js",
+    "static/js/2.5f2eda0f.chunk.js.map": "/reactFacebookLogin/static/js/2.5f2eda0f.chunk.js.map",
+    "index.html": "/reactFacebookLogin/index.html",
+    "precache-manifest.25cbaa47e48434c69d4d701e1ba4c484.js": "/reactFacebookLogin/precache-manifest.25cbaa47e48434c69d4d701e1ba4c484.js",
+    "service-worker.js": "/reactFacebookLogin/service-worker.js",
+    "static/css/main.63b9a3f7.chunk.css.map": "/reactFacebookLogin/static/css/main.63b9a3f7.chunk.css.map",
+    "static/media/logo.svg": "/reactFacebookLogin/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aaded999.js",
+    "static/js/runtime-main.8208ab83.js",
     "static/js/2.5f2eda0f.chunk.js",
     "static/css/main.63b9a3f7.chunk.css",
-    "static/js/main.e7780035.chunk.js"
+    "static/js/main.e073d7c2.chunk.js"
   ]
 }
