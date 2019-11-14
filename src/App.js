@@ -1,23 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
+import FacebookLogin from "react-facebook-login";
 import './App.css';
 
 function App() {
+  const [fb, setFb] = useState({});
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <FacebookLogin
+            appId="414897609429813"
+            autoLoad={true}
+            fields="name,email,picture"
+            callback={(object)=>{setFb(object)}}
+            cssClass="my-facebook-button-class"
+            icon="fa-facebook"
+        />
+        <p style={{maxWidth: '50%', fontSize: '12px'}}>
+          <pre>{JSON.stringify(fb)}</pre>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
