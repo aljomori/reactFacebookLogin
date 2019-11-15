@@ -1,6 +1,16 @@
 .App {
   text-align: center;
 }
+.copy:hover {
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #69bfff;
+}
+button {
+  width: 200px;
+  padding: 20px;
+  cursor: pointer;
+}
 
 .App-logo {
   height: 40vmin;
@@ -30,8 +40,8 @@ pre {
   font-family: monospace;
   font-size: 15px;
   line-height: 1.6;
-  margin-bottom: 1.6em;
   max-width: 100%;
+  margin: 10px 0 0 0;
   overflow: auto;
   padding: 1em 1.5em;
   display: block;
