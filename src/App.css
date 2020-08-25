@@ -1,49 +1,57 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
+
 .copy:hover {
-  cursor: pointer;
-  border-radius: 4px;
-  box-shadow: 0 0 10px #69bfff;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #69bfff;
 }
+
 button {
-  width: 200px;
-  padding: 20px;
-  cursor: pointer;
+    width: 200px;
+    padding: 20px;
+    cursor: pointer;
 }
 
 .App-logo {
-  height: 40vmin;
+    height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #09d3ac;
+    color: #09d3ac;
 }
 
 pre {
-  background: #f4f4f4;
-  border: 1px solid #ddd;
-  border-left: 3px solid #f36d33;
-  color: #666;
-  page-break-inside: avoid;
-  font-family: monospace;
-  font-size: 15px;
-  line-height: 1.6;
-  max-width: 100%;
-  margin: 10px 0 0 0;
-  overflow: auto;
-  padding: 1em 1.5em;
-  display: block;
-  word-wrap: break-word;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 10px 0 0 0;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+.item {
+    max-width: 50%;
+    font-size: 12px;
+    margin-bottom: 20px;
 }
