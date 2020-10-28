@@ -72,9 +72,9 @@ function App({user, signOut, signInWithGoogle}) {
                 </select>
                 <>{loading ? 'Login FB....' : ''}</>
                 <FacebookLogin
-                    appId="414897609429813"
+                    appId="640793113118437"
                     autoLoad={false}
-                    fields="name,email,picture"
+                    fields="id,name,email,picture"
                     callback={loginGrusFB}
                     cssClass="my-facebook-button-class"
                     icon="fa-facebook"
